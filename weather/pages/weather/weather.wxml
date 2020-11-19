@@ -1,0 +1,22 @@
+<!--pages/weather/weather.wxml-->
+<view class="page">
+<!--顶部搜索-->
+<view class="top">
+<input name="City" type="text" value="{{city}}" bindinput="bindKeyInput"></input>
+<icon type='search' size='30' bindtap="onsearch"></icon>
+</view>
+<!--中间天气-->
+<view class="center">
+<view class="city">{{city}}</view>
+<view class="data">{{date}}</view>
+<image src="{{pic}}" class="pic"></image>
+</view>
+<!--风向-->
+<view class="bottom">
+<view>{{weather}}</view>
+<view>
+<view>{{tem}}</view>
+<view>{{wind}}</view>
+</view>
+</view>
+</view>

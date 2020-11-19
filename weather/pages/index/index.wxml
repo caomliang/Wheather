@@ -1,0 +1,1 @@
+<button bindtap="network">点击获取网络请求</button>

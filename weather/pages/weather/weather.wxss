@@ -1,0 +1,59 @@
+/* pages/weather/weather.wxss */
+
+Page {
+  height: 100%;
+  background-color: rgba(109, 154, 250, 0.925);
+}
+
+.top input {
+  height: 100rpx;
+  position: relative;
+  width: 600rpx;
+  margin: 70rpx;
+  padding-left:10rpx;
+  margin-bottom: 5rpx;
+  border-radius: 20rpx;
+  background-color: rgb(238, 234, 234);
+}
+
+icon {
+  position: absolute;
+  left: 595rpx;
+  top: 80rpx;
+  z-index: 99;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: cneter;
+  flex-direction: column;
+}
+
+.city {
+  font-size: 100rpx;
+  color: white;
+}
+
+.data {
+  color: white;
+}
+
+.pic {
+  width: 400rpx;
+  height: 300rpx;
+  margin-top: 50rpx;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 90rpx;
+  color: white;
+}
